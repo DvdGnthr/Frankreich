@@ -56,6 +56,7 @@ mark.highlight {
     color: inherit; /* Ensures the text color does not change */
 }
 
+/* Media queries for responsiveness */
 @media (max-width: 340px) {
     #divA, #divB, #divC, #divD {
         width: 50%; /* Breite auf 100% setzen, damit die Boxen die volle Bildschirmbreite einnehmen */
@@ -77,7 +78,6 @@ mark.highlight {
     }
 }
 
-/* Media queries for responsiveness */
 @media (min-width: 600px) {
     #divA, #divB, #divC, #divD {
         width: calc(50% - 40px); /* Adjust width for larger screens */
